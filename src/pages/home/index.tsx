@@ -4,9 +4,9 @@ import Services from '../../components/sections/Services'
 
 const Home = () => {
   return (
-    <div className=''>
-      <Clients />
+    <div>
       <Services />
+      <Clients />
     </div>
   )
 }

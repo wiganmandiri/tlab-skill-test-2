@@ -16,17 +16,17 @@ const data: Headers[] = [
     url: '/'
   },
   {
-    id: 1,
+    id: 2,
     name: 'Layanan',
     url: '/layanan'
   },
   {
-    id: 1,
+    id: 3,
     name: 'Studi Kasus',
     url: '/studi-kasus'
   },
   {
-    id: 1,
+    id: 4,
     name: 'Data Center',
     url: '/data-center'
   },
@@ -34,7 +34,7 @@ const data: Headers[] = [
 
 const Navigation = () => {
   return (
-    <div className='flex items-center h-[48px] bg-blue-200 mt-[23px]'>
+    <div className='flex items-center h-[48px] mt-[23px]'>
       <img src={LogoTlab} alt="" className="w-[140px] h-[40px] object-contain mr-[64px]" />
       <div className='w-full space-x-8'>
         {

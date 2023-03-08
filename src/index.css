@@ -6,10 +6,10 @@
   header {
     @apply max-w-[1200px] m-auto
   }
-  main {
-    @apply max-w-[1200px] m-auto
-  }
   footer {
-    @apply bg-[#049CFB] bg-opacity-[0.03]
+    @apply bg-[#049CFB] bg-opacity-[0.03] relative overflow-hidden
+  }
+  .main-content {
+    @apply text-[#5A5A5A]
   }
 }
