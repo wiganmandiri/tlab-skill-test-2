@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  header {
+    @apply max-w-[1200px] m-auto
+  }
+  main {
+    @apply max-w-[1200px] m-auto
+  }
+  footer {
+    @apply bg-[#049CFB] bg-opacity-[0.03]
+  }
+}
