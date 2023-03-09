@@ -3,8 +3,8 @@ import { baseUrl } from '../../helpers/baseUrl'
 
 const Footers = () => {
   return (
-    <div className='max-w-[1200px] m-auto'>
-      <div className='flex py-[84.81px] space-x-[84px]'>
+    <div className='max-w-[1200px] m-auto px-4 md:px-0'>
+      <div className='flex flex-col md:flex-row py-[84.81px] space-y-8 md:space-y-0 md:space-x-[84px]'>
         <div className='gap-4 font-bold text-[32px] leading-[48px] whitespace-nowrap'>
           <h1>TLab Amazing</h1>
           <h1>Delivering Innovation</h1>
@@ -15,7 +15,7 @@ const Footers = () => {
           </div>
           <h2 className='text-[11px] leading-[19.85px] font-normal'>2010 - 2021 © TLab. All rights reserved.</h2>
         </div>
-        <div className='flex space-x-[112px] w-full'>
+        <div className='flex flex-wrap md:flex-nowrap gap-10 md:gap-0 md:space-x-[112px] w-full'>
           <div className='space-y-8'>
             <h1 className='text-[14px] leading-[25.27px] font-bold opacity-50'>Company</h1>
             <div className='text-[16px] leading-[44.32px]'>
