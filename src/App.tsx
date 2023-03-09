@@ -2,7 +2,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import BlankPages from './components/blank-pages'
 import Layouts from './components/layouts'
-import Home from './pages/home'
+import ApiHome from './pages/api-home'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes >
         <Route path='*' element={<BlankPages />} />
-        <Route path='/' element={<Layouts><Home /></Layouts>} />
+        <Route path='/' element={<Layouts><ApiHome /></Layouts>} />
       </Routes>
     </BrowserRouter>
   )

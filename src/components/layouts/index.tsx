@@ -8,7 +8,7 @@ const Layouts = ({ children }: any) => {
     <div className='main-content'>
       <header>
         <Navigation />
-        <HeaderHero />
+        {/* <HeaderHero /> */}
       </header>
       <main>
         {children}
