@@ -2,14 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Quicksand";
+  src: url(./assets/fonts/quicksand/Quicksand-Regular.ttf);
+}
+@font-face {
+  font-family: "Nunito Sans";
+  src: url(./assets/fonts/nunitosans/NunitoSans-Regular.ttf);
+}
+
 @layer base {
   header {
-    @apply max-w-[1200px] m-auto
+    @apply max-w-[1200px] m-auto;
   }
   footer {
-    @apply bg-[#049CFB] bg-opacity-[0.03] relative overflow-hidden
+    @apply bg-[#049CFB] bg-opacity-[0.03] relative overflow-hidden;
+  }
+  h1 {
+    @apply font-quicksand;
+  }
+  h2 {
+    @apply font-nunito-sans;
   }
   .main-content {
-    @apply text-[#5A5A5A]
+    @apply text-[#5A5A5A];
   }
 }

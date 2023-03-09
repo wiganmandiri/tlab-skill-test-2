@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'quicksand': ['Quicksand'],
+        'nunito-sans': ['Nunito Sans']
+      }
+    },
   },
   plugins: [],
 }

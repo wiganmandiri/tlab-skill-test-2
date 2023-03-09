@@ -36,10 +36,10 @@ const Navigation = () => {
   return (
     <div className='flex items-center h-[48px] mt-[23px]'>
       <img src={LogoTlab} alt="" className="w-[140px] h-[40px] object-contain mr-[64px]" />
-      <div className='w-full space-x-8'>
+      <div className='w-full space-x-8 flex'>
         {
           _.map(data, (index: Headers, key: number) => (
-            <NavLink key={key} to={index?.url}>{index?.name}</NavLink>
+            <NavLink key={key} to={index?.url}><h2>{index?.name}</h2></NavLink>
           ))
         }
       </div>
